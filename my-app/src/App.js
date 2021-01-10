@@ -1,4 +1,3 @@
-import './css/theme-6.css';
 import Header from './components/Header/Header';
 
 function App() {
