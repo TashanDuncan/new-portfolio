@@ -1,13 +1,14 @@
 import React from 'react';
+import Profile from './Profile';
 
-const Navigation = (props) => {
+
+
+const Navigation = () => {
     return (
-        <header className="header text-center">	    
-           	<div className="force-overflow">
-			<h1 className="blog-name pt-lg-4 mb-0">Tashan Duncan</h1>
-            <Navbar />
-            </div>
-	    </header>
-
+        <div id="navigation" class="collapse navbar-collapse flex-column" >
+        <Profile />
+        </div>
     );
 }
+
+export default Navigation;
