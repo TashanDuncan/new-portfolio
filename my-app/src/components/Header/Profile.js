@@ -1,11 +1,12 @@
 import React from 'react'
-import Image from './Image'
+import Tashan from '../../images/profile.png'
 import Socials from './Socials'
 
 const Profile = () => {
     return(
     <div className="profile-section pt-3 pt-lg-0">
-    <Image />
+        <img class="profile-image mb-3 rounded-circle mx-auto" src={Tashan} alt="Tashan" />			
+        <div class="bio mb-3">Hi, my name is Tashan Duncan and I'm a web Developer. Welcome to my personal website!</div>
     <Socials />
         <hr/>
     </div>
