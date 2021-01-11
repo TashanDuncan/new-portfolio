@@ -21,7 +21,7 @@ export default class Links extends Component {
                 <a className="nav-link" href="resume.html"><FontAwesomeIcon icon={faFileAlt} fixedWidth className="mr-2"/>Resume</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="blog-home.html"><FontAwesomeIcon icon={faBlog} fixedWidth className="mr-2"/>Blog</a>
+                <a className="nav-link" href="blog-home.html"><FontAwesomeIcon icon={faBlog} fixedWidth className="mr-2"/>Blog/Vlog</a>
             </li>
             <li className="nav-item">
                 <a className="nav-link" href="blog-home.html"><FontAwesomeIcon icon={faDiscord} fixedWidth className="mr-2"/>Discord Channel</a>
