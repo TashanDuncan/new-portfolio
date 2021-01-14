@@ -1,3 +1,4 @@
+
 /* ============= Base ============= */
 
 /*********** Theme Generic **********/
@@ -172,14 +173,7 @@ hr {
     
     .nav-item {
 	    font-weight: bold;
-	    &.active {
-		    .nav-link {
-			   
-		       color: rgba(0, 0, 0, 0.5); 
-		       &:hover {
-				    text-decoration: none;
-			    }
-		    }
+
 		    
 		    
 	    }
@@ -188,7 +182,15 @@ hr {
 		    &:hover {
 			    //text-decoration: underline;
 			    color: rgba(0, 0, 0, 0.6); 
-		    }
+			}
+			&.active {
+				.nav-link {
+				   
+				   color: rgba(0, 0, 0, 0.5) !important;
+				   &:hover {
+						text-decoration: none;
+					}
+				}
 	    }
 	    
 	    .nav-link[aria-expanded="true"] {
