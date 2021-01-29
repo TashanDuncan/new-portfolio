@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faJsSquare, faReact, faNodeJs, faPhp, faSass, faNpm, faHtml5, faCss3Alt, faWordpressSimple} from '@fortawesome/free-brands-svg-icons'
+import { faJsSquare, faReact, faNodeJs, faPhp, faSass, faNpm, faHtml5, faCss3Alt, faWordpressSimple, faLaravel, faVuejs} from '@fortawesome/free-brands-svg-icons'
 
 const Skills = () => (
     <section class="overview-section p-3 p-lg-5">
@@ -8,13 +8,7 @@ const Skills = () => (
         <h2 class="section-title font-weight-bold mb-3">What I do</h2>
         <div class="section-intro mb-5">I have more than 10 years' experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more about my experience? Check out my <a href="resume.html">online resume</a> and <a href="portfolio.html">project portfolio</a>.</div>
         <div class="row">
-            <div class="item col-6 col-lg-3">
-                <div class="item-inner">
-                    <div class="item-icon"><FontAwesomeIcon icon={faJsSquare}/></div>
-                    <h3 class="item-title">Vanilla JavaScript</h3>
-                    <div class="item-desc">List skills/technologies here. You can change the icon above to any of the 1500+ <a class="theme-link" href="https://fontawesome.com/" target="_blank">FontAwesome 5 free icons</a> available. Aenean commodo ligula eget dolor.</div>
-                </div>
-            </div>
+
             <div class="item col-6 col-lg-3">
                 <div class="item-inner">
                     <div class="item-icon"><FontAwesomeIcon icon={faReact}/></div>
@@ -42,19 +36,28 @@ const Skills = () => (
 
             <div class="item col-6 col-lg-3">
                 <div class="item-inner">
-                    <div class="item-icon"><FontAwesomeIcon icon={faNodeJs}/></div>
-                    <h3 class="item-title">Node.js</h3>
+                    <div class="item-icon"><FontAwesomeIcon icon={faLaravel}/></div>
+                    <h3 class="item-title">Laravel</h3>
                     <div class="item-desc">List skills/technologies here. You can change the icon above to any of the 1500+ <a class="theme-link" href="https://fontawesome.com/" target="_blank">FontAwesome 5 free icons</a> available. Aenean commodo ligula eget dolor.  </div>
                 </div>
             </div>
             
             <div class="item col-6 col-lg-3">
                 <div class="item-inner">
-                    <div class="item-icon"><FontAwesomeIcon icon={faNpm}/></div>
-                    <h3 class="item-title">npm</h3>
+                    <div class="item-icon"><FontAwesomeIcon icon={faVuejs}/></div>
+                    <h3 class="item-title">Vue</h3>
                     <div class="item-desc">List skills/technologies here. You can change the icon above to any of the 1500+ <a class="theme-link" href="https://fontawesome.com/" target="_blank">FontAwesome 5 free icons</a> available. Aenean commodo ligula eget dolor.  </div>
                 </div>
             </div>
+
+            <div class="item col-6 col-lg-3">
+                <div class="item-inner">
+                    <div class="item-icon"><FontAwesomeIcon icon={faJsSquare}/></div>
+                    <h3 class="item-title">Vanilla JavaScript</h3>
+                    <div class="item-desc">List skills/technologies here. You can change the icon above to any of the 1500+ <a class="theme-link" href="https://fontawesome.com/" target="_blank">FontAwesome 5 free icons</a> available. Aenean commodo ligula eget dolor.</div>
+                </div>
+            </div>
+            
             <div class="item col-6 col-lg-3">
                 <div class="item-inner">
                     <div class="item-icon"><FontAwesomeIcon className="mr-2" icon={faHtml5}/><FontAwesomeIcon icon={faCss3Alt}/></div>
