@@ -12,6 +12,8 @@ const Main = () => (
         <Route exact path="/">
             <AboutMe/>
             <Skills/>
+            <div class="container"><hr></hr></div>
+            
         </Route>
     </Switch>
     </div>

@@ -12,8 +12,6 @@ import {
     faBriefcase
 } from '@fortawesome/free-solid-svg-icons'
 
-import { faDiscord} from '@fortawesome/free-brands-svg-icons'
-
 
 export default class Links extends Component {
     render() {
@@ -25,17 +23,12 @@ export default class Links extends Component {
             <li className="nav-item">
                 <NavLink className="nav-link" to="portfolio"><FontAwesomeIcon icon={faLaptopCode} fixedWidth className="mr-2"/>Portfolio</NavLink>
             </li>
+
             <li className="nav-item">
-                <NavLink className="nav-link" to="freelance"><FontAwesomeIcon icon={faBriefcase} fixedWidth className="mr-2"/>Freelance Services</NavLink>
+                <NavLink className="nav-link" to="resume"><FontAwesomeIcon icon={faFileAlt} fixedWidth className="mr-2"/>CV</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className="nav-link" to="resume"><FontAwesomeIcon icon={faFileAlt} fixedWidth className="mr-2"/>Resume</NavLink>
-            </li>
-            <li className="nav-item">
-                <NavLink className="nav-link" to="blog-home"><FontAwesomeIcon icon={faBlog} fixedWidth className="mr-2"/>Blog/Vlog</NavLink>
-            </li>
-            <li className="nav-item">
-                <NavLink className="nav-link" to="discord"><FontAwesomeIcon icon={faDiscord} fixedWidth className="mr-2"/>Discord Channel</NavLink>
+                <NavLink className="nav-link" to="blog-home"><FontAwesomeIcon icon={faBlog} fixedWidth className="mr-2"/>Blog</NavLink>
             </li>
         </ul>
         )
