@@ -5,6 +5,7 @@ import {
     Route,
     Switch
   } from 'react-router-dom';
+import Projects from './Projects';
 
 const Main = () => (
     <div className="main-wrapper">
@@ -13,7 +14,7 @@ const Main = () => (
             <AboutMe/>
             <Skills/>
             <div class="container"><hr></hr></div>
-            
+            <Projects/>
         </Route>
     </Switch>
     </div>
