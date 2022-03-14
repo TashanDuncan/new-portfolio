@@ -15,7 +15,7 @@ import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 const Skills = () => (
   <section class="overview-section p-3 p-lg-5">
     <div class="container">
-      <h2 class="section-title font-weight-bold mb-3">My Current Tech Stackcd </h2>
+      <h2 class="section-title font-weight-bold mb-3">My Current Tech Stack</h2>
       <div class="section-intro mb-5">
         I have more than 10 years' experience building software for clients all
         over the world. Below is a quick overview of my main technical skill

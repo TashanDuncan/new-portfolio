@@ -25,7 +25,7 @@ export default class Links extends Component {
             </li>
 
             <li className="nav-item">
-                <NavLink className="nav-link" to="resume"><FontAwesomeIcon icon={faFileAlt} fixedWidth className="mr-2"/>CV</NavLink>
+                <NavLink className="nav-link" to="cv"><FontAwesomeIcon icon={faFileAlt} fixedWidth className="mr-2"/>CV</NavLink>
             </li>
             <li className="nav-item">
                 <NavLink className="nav-link" to="blog-home"><FontAwesomeIcon icon={faBlog} fixedWidth className="mr-2"/>Blog</NavLink>

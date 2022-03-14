@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from '../../images/profile-lg.jpg'
+import CV from '../../Tay-Duncan-CV.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowAltCircleRight, faFileAlt} from '@fortawesome/free-solid-svg-icons'
 
@@ -15,7 +16,7 @@ const AboutMe = () =>  (
                 </div>
                 <div className="mb-4">
                     <a className="btn btn-primary mr-2 mb-3" href="portfolio.html"><FontAwesomeIcon icon={faArrowAltCircleRight} className="mr-2"/><span className="d-none d-md-inline">View</span> Portfolio</a>
-                    <a className="btn btn-secondary mb-3" href="resume.html"><FontAwesomeIcon icon={faFileAlt} className="mr-2"/><span className="d-none d-md-inline">View</span> CV</a>
+                    <a className="btn btn-secondary mb-3" href={CV} target = "_blank" rel="noreferrer"><FontAwesomeIcon icon={faFileAlt} className="mr-2"/><span className="d-none d-md-inline">View</span> CV</a>
                 </div>
             </div>
             <img className="profile-image mb-3 mb-lg-0 ml-lg-5 mr-md-0" src={Image} alt="Tashan"/>
