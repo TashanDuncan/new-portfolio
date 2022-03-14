@@ -9,6 +9,7 @@ import {
   faCss3Alt,
   faWordpressSimple,
   faLaravel,
+  faLinux
 } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 
@@ -113,7 +114,7 @@ const Skills = () => (
             <div class="item-icon">
               <FontAwesomeIcon icon={faJsSquare} />
             </div>
-            <h3 class="item-title">Vanilla JavaScript</h3>
+            <h3 class="item-title">JavaScript</h3>
             <div class="item-desc">
               List skills/technologies here. You can change the icon above to
               any of the 1500+{' '}
@@ -132,9 +133,9 @@ const Skills = () => (
         <div class="item col-6 col-lg-3">
           <div class="item-inner">
             <div class="item-icon">
-              <FontAwesomeIcon icon={faReact} />
+              <FontAwesomeIcon icon={faLinux} />
             </div>
-            <h3 class="item-title">React</h3>
+            <h3 class="item-title">Linux CLI</h3>
             <div class="item-desc">test</div>
           </div>
         </div>
