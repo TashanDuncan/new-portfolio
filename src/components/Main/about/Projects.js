@@ -1,8 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye } from '@fortawesome/free-solid-svg-icons';
-import poetic from '../../images/project/poeticflower.png'
-import amadeus from '../../images/project/amadeus.png'
+import poetic from '../../../images/project/poeticflower.png'
+import amadeus from '../../../images/project/amadeus.png'
+
 
 const Projects = () => (
   <section class="featured-section p-3 p-lg-5">
@@ -39,7 +40,7 @@ const Projects = () => (
             </div>
             <div class="link-mask">
               <div class="link-mask-text">
-                <a class="btn btn-secondary" href="project.html">
+                <a class="btn btn-secondary" href="poeticflowerx">
                   <FontAwesomeIcon icon={faEye} className="mr-2" />
                   View Case Study
                 </a>

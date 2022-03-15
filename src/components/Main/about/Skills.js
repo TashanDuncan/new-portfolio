@@ -2,14 +2,13 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faJsSquare,
-  faReact,
   faPhp,
   faSass,
   faHtml5,
   faCss3Alt,
   faWordpressSimple,
   faLaravel,
-  faLinux
+  faLinux,
 } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 
@@ -21,7 +20,7 @@ const Skills = () => (
         I have more than 10 years' experience building software for clients all
         over the world. Below is a quick overview of my main technical skill
         sets and technologies I use. Want to find out more about my experience?
-        Check out my <a href="resume.html">online CV</a> and{' '}
+        Check out my <a href="resume.html">online CV</a> and
         <a href="portfolio.html">project portfolio</a>.
       </div>
       <div class="row">
@@ -47,9 +46,7 @@ const Skills = () => (
             </div>
             <h3 class="item-title">PHP</h3>
             <div class="item-desc">
-              List skills/technologies here. You can change the icon above to
-              any of the 1500+
-              available. Aenean commodo ligula eget dolor.
+
             </div>
           </div>
         </div>
@@ -74,16 +71,7 @@ const Skills = () => (
             </div>
             <h3 class="item-title">Laravel</h3>
             <div class="item-desc">
-              List skills/technologies here. You can change the icon above to
-              any of the 1500+{' '}
-              <a
-                class="theme-link"
-                href="https://fontawesome.com/"
-                target="_blank"
-              >
-                FontAwesome 5 free icons
-              </a>{' '}
-              available. Aenean commodo ligula eget dolor.{' '}
+
             </div>
           </div>
         </div>
@@ -95,16 +83,7 @@ const Skills = () => (
             </div>
             <h3 class="item-title">SQL</h3>
             <div class="item-desc">
-              List skills/technologies here. You can change the icon above to
-              any of the 1500+{' '}
-              <a
-                class="theme-link"
-                href="https://fontawesome.com/"
-                target="_blank"
-              >
-                FontAwesome 5 free icons
-              </a>{' '}
-              available. Aenean commodo ligula eget dolor.{' '}
+
             </div>
           </div>
         </div>
@@ -116,16 +95,7 @@ const Skills = () => (
             </div>
             <h3 class="item-title">JavaScript</h3>
             <div class="item-desc">
-              List skills/technologies here. You can change the icon above to
-              any of the 1500+{' '}
-              <a
-                class="theme-link"
-                href="https://fontawesome.com/"
-                target="_blank"
-              >
-                FontAwesome 5 free icons
-              </a>{' '}
-              available. Aenean commodo ligula eget dolor.
+
             </div>
           </div>
         </div>
@@ -147,16 +117,9 @@ const Skills = () => (
             </div>
             <h3 class="item-title">Sass</h3>
             <div class="item-desc">
-              List skills/technologies here. You can change the icon above to
-              any of the 1500+{' '}
-              <a
-                class="theme-link"
-                href="https://fontawesome.com/"
-                target="_blank"
-              >
-                FontAwesome 5 free icons
-              </a>{' '}
-              available. Aenean commodo ligula eget dolor.{' '}
+              For more complex design work i use Sass in place of regular CSS as
+              this enables things like variables, nested rules, inline imports
+              and more!
             </div>
           </div>
         </div>

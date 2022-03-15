@@ -1,6 +1,6 @@
 import React from 'react'
-import Image from '../../images/profile-lg.jpg'
-import CV from '../../Tay-Duncan-CV.pdf'
+import Image from '../../../images/profile-lg.jpg'
+import CV from '../../../Tay-Duncan-CV.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowAltCircleRight, faFileAlt} from '@fortawesome/free-solid-svg-icons'
 
