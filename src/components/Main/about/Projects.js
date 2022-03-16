@@ -1,8 +1,11 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEye } from '@fortawesome/free-solid-svg-icons';
-import poetic from '../../../images/project/poeticflower.png'
-import amadeus from '../../../images/project/amadeus.png'
+import {
+  faEye,
+  faArrowAltCircleRight,
+} from '@fortawesome/free-solid-svg-icons';
+import poetic from '../../../images/project/poeticflower.png';
+import amadeus from '../../../images/project/amadeus.png';
 import { Link } from 'react-router-dom';
 
 const Projects = () => (
@@ -14,18 +17,14 @@ const Projects = () => (
           <div class="card project-card">
             <div class="row no-gutters">
               <div class="col-lg-4 card-img-holder">
-                <img
-                  src={poetic}
-                  class="card-img"
-                  alt="project"
-                />
+                <img src={poetic} class="card-img" alt="project" />
               </div>
               <div class="col-lg-8">
                 <div class="card-body">
                   <h5 class="card-title">
-                    <a href="project.html" class="theme-link">
+                    <Link to="poeticflowerx" class="theme-link">
                       PoeticFlowerX.com
-                    </a>
+                    </Link>
                   </h5>
                   <p class="card-text">
                     A side project developed for a friend who needed a website
@@ -52,18 +51,14 @@ const Projects = () => (
           <div class="card project-card">
             <div class="row no-gutters">
               <div class="col-lg-4 card-img-holder">
-                <img
-                  src={amadeus}
-                  class="card-img"
-                  alt="project"
-                />
+                <img src={amadeus} class="card-img" alt="project" />
               </div>
               <div class="col-lg-8">
                 <div class="card-body">
                   <h5 class="card-title">
-                    <a href="project.html" class="theme-link">
+                    <Link to="#" class="theme-link">
                       Employee Dashboard Mockup
-                    </a>
+                    </Link>
                   </h5>
                   <p class="card-text">
                     A mockup for an employee dashboard created with HTML CSS and
@@ -88,9 +83,13 @@ const Projects = () => (
         </div>
       </div>
       <div class="text-center py-3">
-        <a href="portfolio.html" class="btn btn-primary">
-          <i class="fas fa-arrow-alt-circle-right mr-2"></i>View Portfolio
-        </a>
+        <Link to="portfolio" class="btn btn-primary">
+          <FontAwesomeIcon
+            icon={faArrowAltCircleRight}
+            className="mr-2"
+          ></FontAwesomeIcon>
+          View Portfolio
+        </Link>
       </div>
     </div>
   </section>

@@ -11,6 +11,8 @@ import {
   faLinux,
 } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
+import CV from '../../../Tay-Duncan-CV.pdf';
 
 const Skills = () => (
   <section class="overview-section p-3 p-lg-5">
@@ -20,8 +22,11 @@ const Skills = () => (
         I have more than 10 years' experience building software for clients all
         over the world. Below is a quick overview of my main technical skill
         sets and technologies I use. Want to find out more about my experience?
-        Check out my <a href="resume.html">online CV</a> and
-        <a href="portfolio.html">project portfolio</a>.
+        Check out my{' '}
+        <a  href={CV} target="_blank" rel="noreferrer">
+          online CV
+        </a>{' '}
+        and <Link href="portfolio.html">project portfolio</Link>.
       </div>
       <div class="row">
         <div class="item col-6 col-lg-3">
@@ -45,9 +50,7 @@ const Skills = () => (
               <FontAwesomeIcon icon={faPhp} />
             </div>
             <h3 class="item-title">PHP</h3>
-            <div class="item-desc">
-
-            </div>
+            <div class="item-desc"></div>
           </div>
         </div>
 
@@ -70,9 +73,7 @@ const Skills = () => (
               <FontAwesomeIcon icon={faLaravel} />
             </div>
             <h3 class="item-title">Laravel</h3>
-            <div class="item-desc">
-
-            </div>
+            <div class="item-desc"></div>
           </div>
         </div>
 
@@ -82,9 +83,7 @@ const Skills = () => (
               <FontAwesomeIcon className="mr-2" icon={faDatabase} />
             </div>
             <h3 class="item-title">SQL</h3>
-            <div class="item-desc">
-
-            </div>
+            <div class="item-desc"></div>
           </div>
         </div>
 
@@ -94,9 +93,7 @@ const Skills = () => (
               <FontAwesomeIcon icon={faJsSquare} />
             </div>
             <h3 class="item-title">JavaScript</h3>
-            <div class="item-desc">
-
-            </div>
+            <div class="item-desc"></div>
           </div>
         </div>
 
